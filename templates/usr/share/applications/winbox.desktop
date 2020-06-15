@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=Winbox64
+GenericName=Configuration tool for RouterOS
+Comment=Configuration tool for RouterOS
+Exec=/usr/bin/winbox64
+Icon=winbox
+Terminal=false
+Type=Application
+StartupNotify=true
+StartupWMClass=winbox64.exe
+Categories=Network;RemoteAccess;
+Keywords=winbox;mikrotik;
+
+[Supervisord Entry]
+Name=winbox64
+Priority=2
+StartRetries=50
+NumProcs=1
+StartSecs=60
+Command=/usr/bin/winbox64
+Autostart=True
+
+[Openbox Entry]
+Name=winbox64.exe
+Maximized=yes
+ShowLauncher=yes
+Layer=above
+Focus=yes
