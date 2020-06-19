@@ -1,7 +1,7 @@
 # docker-novnc-winbox
 Mikrotik's Winbox in a docker container accessible via noVNC through a web browser.
 
-This container is based on the work of [@matepate](https://github.com/matepate) ;) thx
+This container is based on [docker-novnc](https://github.com/t4skforce/docker-novnc) and the work of [@matepate](https://github.com/matepate) ;) thx
 
 support of env variabls:
 - PUID=1000 default
