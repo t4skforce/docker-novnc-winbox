@@ -1,5 +1,7 @@
 FROM t4skforce/docker-novnc:latest
 
+ARG BUILD_DATE=""
+
 RUN set -xe && \
     apt-get update -y && \
     apt-get install -y --no-install-recommends wine && \
